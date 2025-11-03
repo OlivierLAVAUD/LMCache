@@ -102,11 +102,17 @@ wsl --shutdown
 ```
 
 ## 📊 Supported Models
-a lot from Huggingface
-Model	Size	GPU Memory	Status
-TinyLlama	1.1B	~2GB	✅ Tested
-Qwen2.5 1.5B	1.5B	~3GB	✅ Recommended
-Qwen2.5 7B	7B	~7GB	✅ Recommended
+Find your LLM model in Huggingface
+
+## 📊 Supported Models
+    
+| Model | Size | GPU Memory | Status |
+|-------|------|------------|--------|
+| TinyLlama | 1.1B | ~2GB | ✅ Tested, but⚠️ Limited |
+| Phi-3 Mini | 3.8B | ~4GB | ✅ Tested, but⚠️ Limited|
+| Qwen2.5 1.5B | 1.5B | ~3GB | ✅ Recommended |
+| Qwen2.5 7B | 7B | ~7GB | ✅ Recommended |
+| Llama 3.2 8B | 8B | ~8GB | 🔄 Testing |
 
 ## 🔧 API Documentation
 
