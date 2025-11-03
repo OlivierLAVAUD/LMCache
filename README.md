@@ -1,4 +1,4 @@
-# LMCache Integration Project
+# LMCache: Cache Inference with vLLM
 
 🚀 **AI Inference Optimization with LMCache and vLLM**
 
