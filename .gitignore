@@ -6,5 +6,8 @@ dist/
 wheels/
 *.egg-info
 hf-token
+.gitignore
+.python-version
+pyproject.toml
 # Virtual environments
 .venv
