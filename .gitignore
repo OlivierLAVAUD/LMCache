@@ -6,7 +6,6 @@ dist/
 wheels/
 *.egg-info
 hf-token
-.gitignore
 
 # Virtual environments
 .venv
