@@ -114,9 +114,9 @@ Find your LLM model in Huggingface
 | Qwen2.5 7B | 7B | ~7GB | ✅ Recommended |
 | Llama 3.2 8B | 8B | ~8GB | 🔄 Testing |
 
-## 🔧 API Documentation
+## 🔧 API Documentation & Methods
 
-Interactive API documentation available at:
+see Interactive API documentation & Testing available at:
 ```bash
  http://localhost:8000/docs
  ```
