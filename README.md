@@ -32,11 +32,9 @@ uv pip install lmcache vllm
 ## Hugginface CLI installation
 
 ```bash
-#  authenticate through git-credential and set the 'store' credential helper as default.
-git config --global credential.helper stor
-
 # Install the Hugging face fackage
 uv pip install huggingface_hub
+
 # create new token in Hf ( settings/new token) and paste after typyg the following command line
 hf auth login
 ```
