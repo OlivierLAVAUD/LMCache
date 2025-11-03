@@ -120,3 +120,5 @@ Interactive API documentation available at:
 ```bash
  http://localhost:8000/docs
  ```
+
+ ![LLMCache API](image.png)
