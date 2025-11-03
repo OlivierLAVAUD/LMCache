@@ -42,8 +42,10 @@ hf auth login
 ## LMCache USage
 
 see Documentation (https://docs.lmcache.ai/getting_started/quickstart.html)
+
 Open two Linux sessions:
-In the first session - Launch the server:
+
+-> In the first session - Launch the server:
 ```bash
 # With TinyLlama 1.1B 
 LMCACHE_CHUNK_SIZE=8 vllm serve TinyLlama/TinyLlama-1.1B-Chat-v1.0 --port 8000 \
@@ -73,11 +75,11 @@ LMCACHE_CHUNK_SIZE=8 vllm serve Qwen/Qwen2.5-7B-Instruct --port 8000 \
   --quantization bitsandbytes
 
 ```
-n the second session - Test the API:
+-> in the second session - Test the API:
 ```bash
  curl http://localhost:8000/v1/completions   -H "Content-Type: application/json"   -d '{
     "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-    "prompt": "Hello, my name is olivier",
+    "prompt": "Hello, How are you today?",
     "max_tokens": 50
   }'
 ```
